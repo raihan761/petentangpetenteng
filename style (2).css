@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255));
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    font-family: Verdana;
+}
+
+.klik {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    height: 100vh;
+    margin: 0;
+    font-size: 40px;
+}
+ 
+.kims {
+    background: rgb(255, 255, 255);
+    border: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px;
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: bold;
+    filter: blur(1px);
+    box-shadow: 4px 4px 5px rgb(134, 23, 224);
+    transition: all 0.3s ease;
+
+}
+
+.kims:hover {
+    cursor: pointer;
+    filter: blur(0);
+    transform: translateY(3px);
+}
+
+.kims :active {
+    filter: none;
+}
+
